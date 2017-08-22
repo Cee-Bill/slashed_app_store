@@ -1,0 +1,332 @@
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-color:#2f2e2e;
+    /*background-image: {{asset('img/slashed_background.jpg')}};*/
+    /* background-color: rgba(243, 240, 240, 0.48) */
+/* } */
+
+.bg{
+    background-image: {{url('img/slashed_background.jpg')}};
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left:0;
+    padding-right: 0;
+}
+
+.header-nav{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 9px;
+    text-decoration: none;
+    font-size:11px; 
+    font-weight: 600;
+    color: #4b5054;
+}
+
+.header {
+    background: rgb(234, 227, 212) !important;
+    margin-left: 0;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+    height: 8%;
+}
+
+#slashDiv {
+    vertical-align: middle;
+    width: ;
+    color: wheat;
+    padding-top: 86px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 1px;
+}
+
+#articleHolder {
+    padding-top: 0px;
+    height: 85.9%;
+    width: 100%;
+    min-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:#2f2e2e;
+}
+
+#styleSlash {
+    font-size: 8rem;
+    max-width: 100% !important;
+    margin-left: 12px;
+}
+
+.footer{
+    border-top: rgb(197, 152, 15);
+    border-top-width: 2px;
+    border-top-style: solid;
+    padding-top: 0px;
+    background: rgb(234, 227, 212) !important;
+    margin-left: 0;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+    height: 6%;
+}
+
+.footer-nav{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 9px;
+    text-decoration: none;
+}
+div ul li a:visited {
+    color: green;
+}
+
+div ul li:hover {
+    background-color: #2f2e2e;
+}
+
+div ul li:hover a {
+    display: block !important;
+    color: white !important;
+    font-size: 12px;
+}
+
+div ul li:active a {
+    display: block !important;
+    color: white !important;
+    font-size: 12px;
+}
+
+div h4 a:visited {
+    color: #2f2e2e;
+}
+div h4:hover {
+    background-color: #2f2e2e;
+}
+
+.top-bar-left h4 a:active {
+    color: red;
+}
+
+div h4:hover a i {
+    /*display: block !important;*/
+    color: white !important;
+    font-size: 0.8em;
+}
+div h4:hover a {
+    /*display: block !important;*/
+    color: white !important;
+    text-decoration: none;
+    margin-bottom: 0px !important;
+}
+
+.connect {
+    padding-left: 12px;
+    padding-right: 10px;
+}
+
+#shopHairs {
+    border: 1px solid #13383a;
+    padding: 12px;
+    color: #2d2626;
+    font-weight: 700;
+    background-color: crimson;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#shopGarments {
+    margin-left: 21px;
+    border: 1px solid #13383a;
+    padding: 12px;
+    color: #2d2626;
+    font-weight: 700;
+    background-color: #5f9ea0;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#shopShoes {
+    margin-left: 21px;
+    border: 1px solid #13383a;
+    padding: 12px;
+    color: #2d2626;
+    font-weight: 700;
+    background-color: #deb887;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+
+
+footer a {
+    font-size: 20px;
+    color: #5a1e65 !important;
+}
+
+footer connect:hover {
+    background-color: #2f2e2e !important;
+}
+
+footer .connect:hover a {
+    display: block !important;
+    color: black !important;
+    font-size: 22px;
+}
+
+.connectWithUs {
+    text-align-last: center;
+    /* line-height: 37px; */
+    font-size: 15px;
+    font-weight: 600;
+    color: #4b5054;
+}
+
+.side-images {
+    min-height: 100%;
+    padding-right: 0;
+}
+
+#homeBuyLine {
+    position: absolute;
+    top: 86%;
+    left: 236px;
+}
+
+
+
+
+
+
+
+
+.item-wrapper {
+    padding: 20px;
+    border: 2px solid #efefef;
+    border-radius: 0px;
+    margin-top: 40px;
+    box-shadow: 4px 6px 10px 2px rgb(226, 100, 91);
+}
+
+.item-wrapper:hover .img-wrapper img {
+    -webkit-filter: grayscale(0);
+}
+
+.item-wrapper:hover .img-wrapper .add-to-cart {
+    bottom: 0;
+}
+
+.img-wrapper {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+h3 {
+    color: rgba(249, 82, 70, 0.98);
+    font-size: 20px;
+}
+
+h5 {
+    color: rgb(255, 0, 0);
+}
+
+.img-wrapper .add-to-cart {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    background-color: #333;
+    padding: 16px 8px;
+    bottom: -50px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+}
+
+
+    
+
+
+.top-bar, .top-bar ul {
+    background-color: #fffaf0 !important;
+    border-bottom: 5px solid rgba(2, 103, 40, 0.38);;
+}
+
+.top-bar {
+    padding: 1px 100px;
+}
+
+.top-bar a {
+    color: #585555;
+}
+
+.top-bar a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer i {
+    font-size: 22px;
+    padding-left: 23px;
+    
+}
+
+.footer h4 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.footer p, .footer a {
+    font-weight: 300;
+    font-size: .8em;
+    color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .footer .columns:nth-child(n+2) {
+        border-left: 1px solid #b3b3b3;
+        min-height: 280px;
+    }
+}
+
+.price-tag {
+    font-size: 46px;
+    color: rgba(53, 105, 28, 0.77);
+}
+
+.brand-title {
+    font-size: 30px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+}
+
+#shirtsHolder{
+    background-color: rgba(243, 240, 240, 0.48);
+}
